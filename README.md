@@ -10,6 +10,10 @@ This can predict the diseases of Rambutan using VGG16 Architecture.
 Install with Python 3.8.5
 
 ```bash
+  git clone https://github.com/johnmandyyy/leaf-diseases
+  cd leaf-diseases
+  chmod +x update_python.sh
+  ./update_python.sh
   pip install -r requirements.txt
 ```
     
@@ -23,8 +27,6 @@ Install with Python 3.8.5
 Clone the project
 
 ```bash
-  git clone https://github.com/johnmandyyy/leaf-diseases
-  cd leaf-diseases
   python3 GUI.py
 ```
 
